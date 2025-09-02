@@ -19,7 +19,7 @@ return [
     'security' => [
         'session_name' => 'event_sess',
         'csrf_key' => 'csrf_token',
-        'recaptcha_site_key' => '',
-        'recaptcha_secret_key' => '',
+        'recaptcha_site_key' => '6LeAZrkrAAAAADQrqzh_o0IFXyioT8eZryEmjEc1',
+        'recaptcha_secret_key' => '6LeAZrkrAAAAACCaCwWxvbyOg4G4uWHqXEaggWCe',
     ],
 ];

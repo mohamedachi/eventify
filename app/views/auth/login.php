@@ -6,6 +6,7 @@
     <label>Password <input type="password" name="password" minlength="6" required></label>
     <input type="hidden" name="<?= (require __DIR__.'/../../../config.php')['security']['csrf_key'] ?>" value="<?= Auth::csrfToken() ?>">
     <!-- Optional reCAPTCHA placeholder (render client-side if site key set) -->
+       <?php Captcha::renderWidget(); ?>
     <button type="submit" class="btn">Login</button>
   </form>
   <p>No account? <a href="<?= base_url('register') ?>">Register</a></p>
